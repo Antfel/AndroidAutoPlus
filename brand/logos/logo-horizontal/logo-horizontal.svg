@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
+  <rect width="1600" height="500" fill="#352044"/>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D296"/><stop offset="50%" stop-color="#C5A15B"/><stop offset="100%" stop-color="#947030"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="220" cy="250" rx="140" ry="180" fill="none" stroke="url(#g)" stroke-width="6"/>
+  <text x="220" y="220" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="700" font-size="150" fill="url(#g)">T</text>
+  <text x="220" y="320" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-weight="700" font-size="140" fill="url(#g)">H</text>
+  <path d="M 180 240 Q 230 260 290 290" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round"/>
+  <text x="420" y="230" font-family="Playfair Display, Georgia, serif" font-size="58" fill="#C5A15B">THE NAIL HOUSE</text>
+  <line x1="420" y1="260" x2="800" y2="260" stroke="#C5A15B" stroke-opacity="0.6" stroke-width="1"/>
+  <text x="420" y="300" font-family="Montserrat, Helvetica, sans-serif" font-weight="300" font-size="20" fill="#D9C4EC" letter-spacing="7">NAIL STUDIO</text>
+</svg>

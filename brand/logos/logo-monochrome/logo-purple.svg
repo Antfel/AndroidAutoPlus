@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8D296"/>
+      <stop offset="45%" stop-color="#C5A15B"/>
+      <stop offset="100%" stop-color="#947030"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  
+  <g filter="url(#softShadow)">
+    <ellipse cx="256.0" cy="256.0" rx="163.84" ry="204.8"
+             fill="none" stroke="url(#goldGrad)" stroke-width="6.144"/>
+    <ellipse cx="256.0" cy="256.0" rx="151.04" ry="192.0"
+             fill="none" stroke="#352044" stroke-opacity="0.35" stroke-width="2.048"/>
+    <text x="256.0" y="215.04" text-anchor="middle"
+          font-family="Playfair Display, Georgia, serif" font-weight="700"
+          font-size="194.56" fill="url(#goldGrad)">T</text>
+    <text x="256.0" y="348.16" text-anchor="middle"
+          font-family="Playfair Display, Georgia, serif" font-weight="700"
+          font-size="174.08" fill="url(#goldGrad)">H</text>
+    <path d="M 230.4 245.76 Q 281.6 266.24 348.16 296.96"
+          fill="none" stroke="url(#goldGrad)" stroke-width="9.216" stroke-linecap="round"/>
+  </g>
+</svg>
